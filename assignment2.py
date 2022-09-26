@@ -6,8 +6,8 @@ import doctest
 def add_to_cart(item_price: int, cart_total: int, available_credit: int):
     ''' this function takes 3 arguments, the price of the purchasing item
     the price of the items already being purchased and the total available 
-    money for purchasing goods. The function will act to ensure purchasing
-    of items stays under the available credit.
+    money for purchasing goods. The function will acts to ensure purchased
+    of items remains under the available credit.
     >>> add_to_cart( 10, 20, 25)
     Not enough funds! You need an additional $ 5
     
