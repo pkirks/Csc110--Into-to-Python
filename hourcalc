@@ -1,0 +1,66 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+#import csv
+#import datetime
+
+#def read_file(filename: str) -> list
+'''
+csv format
+jobnumber, startime, endtime, description
+jobnumber:int, timestart:int, timeend:int, desc:str
+
+calculate hours between start and end rounding to 0.25hrs
+
+
+find unique jobs by day ?
+if jobnumber & description & date all match --> hours + time
+else append
+
+'''
+
+#if making tuple represent each job entry - job number, time start, time end and, description
+'''Hours = tuple [str, int, int, float, str]
+JOB_NUM = 0
+START_TIME = 1
+END_TIME = 2
+TIME_WORKED = 3
+DESCRIPTION = 4 ''' 
+
+
+
+
+def find_unique(yobs) -> list:
+    '''
+    > read_file('hours.csv')
+    return something
+    '''
+    lizt= []
+    for i in yobs:
+        if i not in lizt:
+            lizt.append(i)
+
+    return lizt
+
+#driver
+yobs = [22159, 22328, 22359, 22159, 22359, 23042, 23102, 22359, 22162, 23000, 22252]
+unique = find_unique(yobs)
+print('unique jobs:', unique)
+
+
+
+def SumHoursPerDay (times[jobno:int,hours:float,description:str]) -> list:
+    '''
+    take in job number,hoursworked(after calculation), and DESCRIPTION
+    sum hours devoted to each job number, but also differentiating by DESCRIPTION
+    i.e. 
+    [23032, 2, 'Pad Design']
+    
+    '''
+    jobs = find_unique(times)
+     for i in jobs:
+         if 
+
+
+
+
